@@ -1,5 +1,5 @@
 'use client'
-export default function AboutPage() {
+export default function otherPage() {
   return (
     <div>
    

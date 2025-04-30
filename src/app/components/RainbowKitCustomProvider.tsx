@@ -6,7 +6,6 @@ import { createConfig, WagmiConfig } from 'wagmi';
 import { bsc } from 'viem/chains';
 import { QueryClient, QueryClientProvider } from '@tanstack/react-query';
 
-
 const config = getDefaultConfig({
     appName: 'My RainbowKit App',
     projectId: 'YOUR_PROJECT_ID',
