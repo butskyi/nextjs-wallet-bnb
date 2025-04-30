@@ -48,7 +48,7 @@ export default function userPage() {
               <div className='flex md:flex-row flex-col-reverse items-center md:space-x-4 '>
                 <h1 className='uppercase md:text-3xl text-[12px] font-semibold'>DEPOSIT SECTION</h1>
                 <figure className='mb-3'>
-                    <img src="/images/withdraw.svg" className='w-10 h-10 ' />
+                    <img src='/images/withdraw.svg' className='w-10 h-10 ' />
                 </figure>
               </div>
               <h2 className="text-[#a0aec0] font-bold md:text-[16px] text-[7px]">The deposit amount is 700 TRX.</h2>
@@ -72,7 +72,7 @@ export default function userPage() {
                 </li>
                 <li>Ensure that your TronLink wallet is connected and ready for the transaction.
                 </li>
-                <li>Click on the "Sacrifice" button to initiate the deposit process.
+                <li>Click on the &quot;Sacrifice&quot; button to initiate the deposit process.
                 </li>
               </ol>
             </div>
@@ -100,7 +100,7 @@ export default function userPage() {
                   You must have referred at least one user within the last 7 days to qualify for withdrawal.
                   </li>
                   <li>
-                  Once the withdrawal conditions are met, click on the "Withdraw" button to begin the withdrawal process.
+                  Once the withdrawal conditions are met, click on the &quot;Withdraw&quot; button to begin the withdrawal process.
                   </li>
                 </ol>
                 <ul className='list-disc xl:pl-5 pl-3 text-[#a0aec0] text-sm md:space-y-2 space-y-1 text-left md:leading-4 leading-3 md:text-[16px] text-[7px]'>
@@ -141,7 +141,7 @@ export default function userPage() {
                 <h2 className="text-[#a0aec0] md:text-[30px] text-[20px] md:leading-10 leading-5 md:font-[1000] font-[600]"> Mission Status</h2>
                 <div className='flex items-center space-x-4'>
                   <figure>
-                    <img  src="/images/user.png" alt="Shoes" className='md:w-[54px] md:h-[54px] w-[25px] h-[25px]' />
+                    <img  src='/images/user.png' alt="Shoes" className='md:w-[54px] md:h-[54px] w-[25px] h-[25px]' />
                   </figure>
                   <h2 className='uppercase font-semibold md:text-2xl text-[10px]'>Debbie Reese</h2>
                 </div>
@@ -150,13 +150,13 @@ export default function userPage() {
                     <p className="text-[#a0aec0] md:text-[15px] text-[8px] "> Mission</p>
                     <div className='flex items-center space-x-4'>
                       <figure>
-                        <img  src="/images/ethereum.svg" alt="Shoes" className='md:w-[15px] md:h-[24px] w-[10px] h-[15px]' />
+                        <img  src='/images/ethereum.svg' alt="Shoes" className='md:w-[15px] md:h-[24px] w-[10px] h-[15px]' />
                       </figure>
                       <h2 className='uppercase font-semibold md:text-[15px] text-[10px]'>Mission 01</h2>
                     </div>
                     <div className='flex items-center space-x-4'>
                       <figure>
-                      <img  src="/images/ethereum.svg" alt="Shoes" className='md:w-[15px] md:h-[24px] w-[10px] h-[15px]' />
+                      <img  src='/images/ethereum.svg' alt="Shoes" className='md:w-[15px] md:h-[24px] w-[10px] h-[15px]' />
                       </figure>
                       <h2 className='uppercase font-semibold md:text-[15px] text-[10px]'>Mission 02</h2>
                     </div>
@@ -182,7 +182,7 @@ export default function userPage() {
                 <h2 className="text-white 2xl:text-[55px] text-[45px] leading-10 font-[1000] "> 7 <span className='uppercase text-[#bba490]'>s a i n t s</span> </h2>
                 <div className='flex items-center space-x-4'>
                   <figure>
-                    <Image src="/images/telegram.png" alt="Shoes" width={40} height={40} />
+                    <Image src='/images/telegram.png' alt="Shoes" width={40} height={40} />
                   </figure>
                   <h2 className='uppercase font-semibold 2xl:text-3xl text-xl'>Join Telegram</h2>
                 </div>
@@ -193,10 +193,10 @@ export default function userPage() {
               </figure>
               <h2 className='uppercase font-semibold text-[10px] text-white'>Join Telegram</h2>
             </div>
-            <img src="/images/shape-icon.svg" alt="Menu Icon" className='w-[615px] h-[647px] absolute z-[-10] top-20 left-1/2 transform -translate-x-1/2 md:block hidden'/>
+            <img src='/images/shape-icon.svg' alt="Menu Icon" className='w-[615px] h-[647px] absolute z-[-10] top-20 left-1/2 transform -translate-x-1/2 md:block hidden'/>
           </div>
-          <Image src="/images/saint-sacred-img.png" alt="" width={1300} height={1276}  className='absolute bottom-0 right-0 z-10 ' />
-          <Image src="/images/saint-group-bg.png" alt="" width={1903} height={533} className='absolute bottom-0 right-0 z-0' />
+          <Image src='/images/saint-sacred-img.png' alt="" width={1300} height={1276}  className='absolute bottom-0 right-0 z-10 ' />
+          <Image src='/images/saint-group-bg.png' alt="" width={1903} height={533} className='absolute bottom-0 right-0 z-0' />
         </section>
         <div className='relative w-full text-center z-30 pt-[120px] pb-[70px]'>
           <h2 className='uppercase font-semibold md:text-[15px] text-[8px] text-white'>All content © [Current Year] 7 Saints. All rights reserved.</h2>

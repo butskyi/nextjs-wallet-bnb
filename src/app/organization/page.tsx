@@ -43,7 +43,7 @@ export default function AboutPage() {
                 </li>
                 <li>Ensure that your TronLink wallet is connected and ready for the transaction.
                 </li>
-                <li>Click on the "Sacrifice" button to initiate the deposit process.
+                <li>Click on the &quot;Sacrifice&quot; button to initiate the deposit process.
                 </li>
               </ol>
             </div>
@@ -54,7 +54,7 @@ export default function AboutPage() {
                   <h1 className='uppercase md:text-2xl text-[10px] font-semibold'>Referral Tracking
                   </h1>
                   <button className='border-1 border-gray-500 md:p-3 p-2  rounded-[20px] '>
-                    <img src="/images/dots.svg" alt="" className='lg:w-[30px] lg:h-[20px] w-[20px] ' />
+                    <img src='/images/dots.svg' alt="" className='lg:w-[30px] lg:h-[20px] w-[20px] ' />
                   </button>
                 </div>
                 <div className='flex items-center justify-between'>
@@ -93,33 +93,33 @@ export default function AboutPage() {
           <h2 className='lg:block hidden uppercase font-semibold xl:text-6xl text-4xl text-white xl:mb-20 text-left'>7 <span className='text-[#bba490]' >S A I N T S</span> </h2>
           <div className='flex items-center space-x-4'>
             <figure>
-              <img src="/images/box-icon.svg" alt="" className='xl:w-[34px] xl:h-[34px] w-[15px] h-[15px]' />
+              <img src='/images/box-icon.svg' alt='' className='xl:w-[34px] xl:h-[34px] w-[15px] h-[15px]' />
             </figure>
             <h2 className='uppercase font-semibold xl:text-2xl text-[12px] text-gray-400'> USER PANEL</h2>
           </div>
           <div className='flex items-center space-x-4'>
             <figure>
-              <img src="/images/user-icon.svg" alt="" className='xl:w-[34px] xl:h-[34px] w-[15px] h-[15px]' />
+              <img src='/images/user-icon.svg' alt='' className='xl:w-[34px] xl:h-[34px] w-[15px] h-[15px]' />
             </figure>
             <h2 className='uppercase font-semibold xl:text-2xl text-[12px] text-gray-400'>ORGANIZATIONS</h2>
           </div>
           <div className='flex items-center space-x-4'>
             <figure>
-              <img src="/images/withdraw.svg" alt="" className='xl:w-[34px] xl:h-[34px] w-[15px] h-[15px]' />
+              <img src='/images/withdraw.svg' alt='' className='xl:w-[34px] xl:h-[34px] w-[15px] h-[15px]' />
             </figure>
             <h2 className='uppercase font-semibold xl:text-2xl text-[12px] text-gray-400'>Withdraw</h2>
           </div>
           <div className='flex items-center space-x-4'>
             <figure>
-              <img src="/images/deposit-icon.svg" alt="" className='xl:w-[34px] xl:h-[34px] w-[15px] h-[15px]' />
+              <img src='/images/deposit-icon.svg' alt="" className='xl:w-[34px] xl:h-[34px] w-[15px] h-[15px]' />
             </figure>
             <h2 className='uppercase font-semibold xl:text-2xl text-[12px] text-gray-400'>Deposit</h2>
           </div>
           <h2 className='uppercase font-semibold xl:text-xl text-[8px] text-gray-400 md:my-15 my-5'>ALL CONTENT © [CURRENT YEAR] 7 SAINTS. ALL RIGHTS RESERVED.</h2>
         </div>
-        <Image src="/images/saint-group-bg.png" alt="" width={393} height={143} className='absolute bottom-0 left-0 z-10 md:hidden block' />
-        <Image src="/images/saints-bg.png" alt="" width={1920} height={708} className='absolute bottom-0 right-0 z-10 md:block hidden' />
-        <img src="/images/saint-img.png" alt=""className='absolute bottom-0 lg:right-0 -right-10 z-10 2xl:w-[1303px] xl:w-[1000px] lg:w-[700px] w-[500px]  h-auto' />
+        <Image src='/images/saint-group-bg.png' alt='' width={393} height={143} className='absolute bottom-0 left-0 z-10 md:hidden block' />
+        <Image src='/images/saints-bg.png' alt='' width={1920} height={708} className='absolute bottom-0 right-0 z-10 md:block hidden' />
+        <img src='/images/saint-img.png' alt='' className='absolute bottom-0 lg:right-0 -right-10 z-10 2xl:w-[1303px] xl:w-[1000px] lg:w-[700px] w-[500px]  h-auto' />
       </section>
     </div>
   );

@@ -2,7 +2,7 @@
 
 import '@rainbow-me/rainbowkit/styles.css';
 import { getDefaultConfig, RainbowKitProvider } from '@rainbow-me/rainbowkit';
-import { createConfig, WagmiConfig } from 'wagmi';
+import { WagmiConfig } from 'wagmi';
 import { bsc } from 'viem/chains';
 import { QueryClient, QueryClientProvider } from '@tanstack/react-query';
 
