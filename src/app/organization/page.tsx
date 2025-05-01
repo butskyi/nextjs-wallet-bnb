@@ -1,7 +1,8 @@
 'use client'
 import Image from 'next/image';
+import Link from 'next/link';
 
-export default function AboutPage() {
+export default function orgPage() {
   return (
     <div className='relative w-full overflow-visible'>
       <section
@@ -53,7 +54,8 @@ export default function AboutPage() {
                 <div className='flex justify-between pb-12'>
                   <h1 className='uppercase md:text-2xl text-[10px] font-semibold'>Referral Tracking
                   </h1>
-                  <button className='border-1 border-gray-500 md:p-3 p-2  rounded-[20px] '>
+                  <button className='border-1 border-gray-500 md:p-3 p-2  rounded-[20px] '
+                    onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}>
                     <img src='/images/dots.svg' alt="" className='lg:w-[30px] lg:h-[20px] w-[20px] ' />
                   </button>
                 </div>
@@ -91,30 +93,34 @@ export default function AboutPage() {
       >
         <div className=' flex flex-col md:space-y-5 space-y-2 z-20 lg:pl-[100px] px-6 mt-10 w-full'>
           <h2 className='lg:block hidden uppercase font-semibold xl:text-6xl text-4xl text-white xl:mb-20 text-left'>7 <span className='text-[#bba490]' >S A I N T S</span> </h2>
-          <div className='flex items-center space-x-4'>
-            <figure>
-              <img src='/images/box-icon.svg' alt='' className='xl:w-[34px] xl:h-[34px] w-[15px] h-[15px]' />
-            </figure>
-            <h2 className='uppercase font-semibold xl:text-2xl text-[12px] text-gray-400'> USER PANEL</h2>
-          </div>
-          <div className='flex items-center space-x-4'>
-            <figure>
-              <img src='/images/user-icon.svg' alt='' className='xl:w-[34px] xl:h-[34px] w-[15px] h-[15px]' />
-            </figure>
-            <h2 className='uppercase font-semibold xl:text-2xl text-[12px] text-gray-400'>ORGANIZATIONS</h2>
-          </div>
-          <div className='flex items-center space-x-4'>
-            <figure>
-              <img src='/images/withdraw.svg' alt='' className='xl:w-[34px] xl:h-[34px] w-[15px] h-[15px]' />
-            </figure>
-            <h2 className='uppercase font-semibold xl:text-2xl text-[12px] text-gray-400'>Withdraw</h2>
-          </div>
-          <div className='flex items-center space-x-4'>
-            <figure>
-              <img src='/images/deposit-icon.svg' alt="" className='xl:w-[34px] xl:h-[34px] w-[15px] h-[15px]' />
-            </figure>
-            <h2 className='uppercase font-semibold xl:text-2xl text-[12px] text-gray-400'>Deposit</h2>
-          </div>
+          <Link href="/user-panel"  className='flex items-center '>
+              <Image src="/images/box-icon.svg" alt="Logo" 
+              width={0}
+              height={0}
+              className="w-4 h-4 sm:w-5 sm:h-5 md:w-6 md:h-6" />
+              <span className="ml-2 lg:text-xl text-sm font-bold text-gray-400">USER PANEL</span>
+          </Link>
+          <Link href="/organization"  className='flex items-center '>
+              <Image src="/images/user-icon.svg" alt="Logo"  
+              width={0}
+              height={0}
+              className="w-4 h-4 sm:w-5 sm:h-5 md:w-6 md:h-6" />
+              <span className="ml-2 lg:text-xl text-sm font-bold text-gray-400">ORGANIZATIONS</span>
+          </Link>
+          <Link href={{ pathname: '/user-panel', hash: 'withdraw' }}  className='flex items-center '>
+              <Image src="/images/withdraw.svg" alt="Logo"  
+              width={0}
+              height={0}
+              className="w-4 h-4 sm:w-5 sm:h-5 md:w-6 md:h-6" />
+              <span className="ml-2 lg:text-xl text-sm font-bold text-gray-400">Withdraw</span>
+          </Link>
+          <Link href={{ pathname: '/user-panel', hash: 'deposit' }}  className='flex items-center '>
+              <Image src="/images/deposit-icon.svg" alt="Logo"  
+              width={0}
+              height={0}
+              className="w-4 h-4 sm:w-5 sm:h-5 md:w-6 md:h-6" />
+              <span className="ml-2 lg:text-xl text-sm font-bold text-gray-400">Deposit</span>
+          </Link>
           <h2 className='uppercase font-semibold xl:text-xl text-[8px] text-gray-400 md:my-15 my-5'>ALL CONTENT © [CURRENT YEAR] 7 SAINTS. ALL RIGHTS RESERVED.</h2>
         </div>
         <Image src='/images/saint-group-bg.png' alt='' width={393} height={143} className='absolute bottom-0 left-0 z-10 md:hidden block' />

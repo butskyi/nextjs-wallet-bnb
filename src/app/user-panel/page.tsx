@@ -1,5 +1,6 @@
 'use client';
 import Image from 'next/image';
+import Link from 'next/link';
 import { ConnectButton } from '@rainbow-me/rainbowkit';
 import RainbowKitCustomProvider from '../components/RainbowKitCustomProvider';
 
@@ -33,9 +34,9 @@ export default function userPage() {
             </div>
           </div>
         </section>
-        <section className=" w-full h-auto flex justify-center md:pt-[-100px] ">
+        <section className="w-full h-auto flex justify-center md:pt-[-100px] ">
           <div className='relative z-20 grid xl:grid-cols-2 grid-cols-1 md:justify-items-end justify-items-center items-end 3xl:gap-30 md:gap-10 gap-5 md:mx-[150px] mx-[50px] w-full '>
-            <div className="
+            <div id="deposit" className="
               md:w-full w-[300px]
               xl:px-20 px-10 
               2xl:py-[120px] md:py-[100px] py-10
@@ -76,7 +77,7 @@ export default function userPage() {
                 </li>
               </ol>
             </div>
-            <div className="flex flex-col justify-between 
+            <div id="withdraw" className="flex flex-col justify-between 
               md:w-full w-[300px]
               3xl:px-20 2xl:px-10 px-10
               2xl:py-16 md:py-8 py-6
@@ -180,19 +181,17 @@ export default function userPage() {
             <div className="md:flex flex-col 2xl:w-[550px] xl:w-[450px] xl:max-h-[350px] w-full h-[250px] 2xl:p-20 p-10 text-white rounded-[40px]
                border-2 border-[rgba(255,255,255,0.1)] bg-white/10 backdrop-blur-2xl space-y-15 items-end hidden">
                 <h2 className="text-white 2xl:text-[55px] text-[45px] leading-10 font-[1000] "> 7 <span className='uppercase text-[#bba490]'>s a i n t s</span> </h2>
-                <div className='flex items-center space-x-4'>
-                  <figure>
-                    <Image src='/images/telegram.png' alt="Shoes" width={40} height={40} />
-                  </figure>
+                <Link href="http://telegram.org" className='flex items-center space-x-5' >
+                  <Image src='/images/telegram.png' alt="Shoes" width={40} height={40} />
                   <h2 className='uppercase font-semibold 2xl:text-3xl text-xl'>Join Telegram</h2>
-                </div>
+                </Link>
             </div>
-            <div className='md:hidden flex w-full space-x-4 pt-[100px]'>
-              <figure>
-                <Image src="/images/telegram.png" alt="Shoes" width={20} height={20} />
-              </figure>
-              <h2 className='uppercase font-semibold text-[10px] text-white'>Join Telegram</h2>
-            </div>
+            
+            <Link href="http://telegram.org" className='md:hidden flex w-full space-x-4 pt-[100px]' >
+              <Image src='/images/telegram.png' alt="Shoes" width={10 } height={10} />
+              <h2 className='uppercase font-semibold xl:text-xl text-[8px] text-white'>Join Telegram</h2>
+            </Link>
+      
             <img src='/images/shape-icon.svg' alt="Menu Icon" className='w-[615px] h-[647px] absolute z-[-10] top-20 left-1/2 transform -translate-x-1/2 md:block hidden'/>
           </div>
           <Image src='/images/saint-sacred-img.png' alt="" width={1300} height={1276}  className='absolute bottom-0 right-0 z-10 ' />

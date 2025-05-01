@@ -12,7 +12,7 @@ export default function RootLayout({ children }: { children: ReactNode }) {
     <html lang="en">
       <body className="bg-transparent">
         <div className="relative w-full bg-[#030713]">
-          <header className="absolute left-1/2 transform -translate-x-1/2 z-50 text-grey">
+          <header className="absolute flex justify-center w-full z-50 text-grey">
             <Navbar />
           </header>
           <main>{children}</main>
