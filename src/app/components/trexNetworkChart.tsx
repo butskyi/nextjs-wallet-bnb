@@ -42,8 +42,7 @@ export default function TrxNetworkChart() {
 
           <circle cx="1000" cy="100" r="60" fill="#25d3b0" stroke="#505461" strokeWidth="8"/>
           <circle cx="1000" cy="400" r="60" fill="#131b2c" stroke="#505461" strokeWidth="8"/>
-         
-          <text x="1000" y="255" textAnchor="middle" fill="white" fontSize="22" fontFamily="sans-serif">100 TRX</text>
+ 
 
           <circle cx="1150" cy="400" r="60" fill="#131b2c" stroke="#505461" strokeWidth="8"/>
           <text x="1150" y="405" textAnchor="middle" fill="white" fontSize="22" fontFamily="sans-serif">100 TRX</text>

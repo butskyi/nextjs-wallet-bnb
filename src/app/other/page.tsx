@@ -16,7 +16,7 @@ export default function orgPage() {
             <span className="text-[#8c8c8c] xl:text-[20px] md:text-[17px] text-[10px] md:mb-[25px] mb-[15px] font-semibold uppercase">
             Guide for New Participants in the Spiritual Network 
             </span>
-            <h1 className="font-genos 2xl:text-7xl xl:text-5xl md:text-4xl sm:text-3xl text-2xl font-[1000] text-white leading-25 md:mb-7 mb-[20px] uppercase ">
+            <h1 className="font-genos 2xl:text-7xl xl:text-5xl md:text-4xl sm:text-3xl text-2xl font-[1000] text-white lg:leading-25 leading-8 md:mb-7 mb-[20px] uppercase ">
               A new believer joins our spiritual network
             </h1>
             <p className="text-white xl:text-[22px] lg:text-[20px] md:text-[15px] md:font-[300] text-[10px] 2xl:px-[170px] ">
